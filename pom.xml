@@ -32,7 +32,7 @@
     <java.level>8</java.level>
     <findbugs.skip>true</findbugs.skip>
 
-    <selenium.version>3.141.59</selenium.version>
+    <selenium.version>4.0.0</selenium.version>
     <guava.version>28.2-jre</guava.version> <!-- aligned with selenium -->
     <aether.version>0.9.0.v20140226</aether.version>
     <jackson.version>2.10.3</jackson.version>
@@ -500,7 +500,7 @@
         <artifactId>gmaven-plugin</artifactId>
         <configuration>
           <providerSelection>2.0</providerSelection>
-          <source />
+          <source/>
         </configuration>
         <executions>
           <execution>
@@ -580,7 +580,7 @@
             <phase>generate-resources</phase>
             <configuration>
               <target>
-                <zip destfile="target/classes/tool_installers.zip" basedir="${project.basedir}/src/main/tool_installers" />
+                <zip destfile="target/classes/tool_installers.zip" basedir="${project.basedir}/src/main/tool_installers"/>
               </target>
             </configuration>
             <goals>
