@@ -335,7 +335,7 @@
     <dependency>
       <groupId>org.zeroturnaround</groupId>
       <artifactId>zt-zip</artifactId>
-      <version>1.7</version>
+      <version>1.13</version>
     </dependency>
     <dependency>
       <groupId>javax.mail</groupId>
@@ -500,7 +500,7 @@
         <artifactId>gmaven-plugin</artifactId>
         <configuration>
           <providerSelection>2.0</providerSelection>
-          <source />
+          <source/>
         </configuration>
         <executions>
           <execution>
@@ -581,7 +581,7 @@
             <phase>generate-resources</phase>
             <configuration>
               <target>
-                <zip destfile="target/classes/tool_installers.zip" basedir="${project.basedir}/src/main/tool_installers" />
+                <zip destfile="target/classes/tool_installers.zip" basedir="${project.basedir}/src/main/tool_installers"/>
               </target>
             </configuration>
             <goals>
